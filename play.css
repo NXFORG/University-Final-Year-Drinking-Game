@@ -1,0 +1,60 @@
+body{
+ /*background-color: #5b99d4;*/
+ background-color: #3f4042;
+}
+h1,h3,h4,h5{
+ text-align:center;
+ margin-top: 3%;
+ font-family: raleway-semibold;
+}
+h1,h3{
+  color: #fff;
+}
+form{
+  text-align: center;
+}
+input{
+  width: 100%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  border-radius: 5px;
+  border: 0;
+  background-color: #d5d6e0;
+  padding-left: 5%;
+}
+#form-container{
+  margin-top: 3%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+  padding-top: 1%;
+  font-family: raleway-light;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#form-container2{
+  margin-top: 1%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+  font-family: raleway-light;
+}
+#chosenplayer{
+  font-family: raleway-medium;
+  margin-top: 10%;
+  color: #060e5e;
+}
+@font-face {
+  font-family: raleway-light;
+  src: url(fonts/raleway-light.ttf);
+}
+@font-face {
+  font-family: raleway-medium;
+  src: url(fonts/raleway-medium.ttf);
+}
+@font-face {
+  font-family: raleway-semibold;
+  src: url(fonts/raleway-semibold.ttf);
+}
